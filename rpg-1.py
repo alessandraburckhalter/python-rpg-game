@@ -7,6 +7,7 @@ print("=-=" * 20)
 print("                         GAME TIME")
 print("=-=" * 20)
 print("\nRemember: YOU are the hero here.")
+# create a main class to store info for all characters
 class Character:
     def __init__(self, health, power, name):
         self.health = health
@@ -28,7 +29,7 @@ class Character:
         print(f"{self.name} has {self.health} health and {self.power} power.")
 
 
-
+# create a main function
 def main():
 
     goblin = Character(6, 2, "Globin")
