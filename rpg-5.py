@@ -198,7 +198,7 @@ class Store(object):
                 hero.buy(item)
 
 hero = Hero()
-enemies = [Goblin(), Wizard(), Medic(), Shadow()]
+enemies = [Goblin(), Wizard(), Medic(), Shadow(), Zombie()]
 battle_engine = Battle()
 shopping_engine = Store()
 
